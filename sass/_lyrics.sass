@@ -1,0 +1,32 @@
+/* lyrics.sass */
+
+#lyrics-cta
+	@extend .container
+
+.main
+	@extend .inner
+	background: $white
+	color: $black
+.content
+	padding: 10px
+
+
+#song-info, #lyrics
+	vertical-align: top
+
+#song-info
+	display: inline-block
+	width: 24%
+	border-right: 1px solid lighten($black, 60%)
+	.song-title
+		font-size: 3em
+	.song-artist
+		font-size: 1.5em
+	.song-artist, .song-album
+		color: lighten($black, 60%)
+		display: block
+
+#lyrics
+	display: inline-block
+	width: 73%
+	margin-left: 2%

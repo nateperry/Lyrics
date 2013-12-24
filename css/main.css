@@ -1,0 +1,73 @@
+/* global vars */
+/* base.sass */
+body {
+  padding: 0;
+  margin: 0;
+  background: #2c3e50;
+  color: #ecf0f1;
+  font-family: "Sintony", "Arial", sans-serif;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0;
+  padding: 0; }
+
+.container, #header, #lyrics-cta, #footer {
+  width: 100%;
+  left: 0;
+  right: 0; }
+
+.inner, .main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/* header.sass */
+#header {
+  background: #11181f;
+  border-bottom: 3px solid black;
+  padding: 10px 0; }
+
+/* lyrics.sass */
+.main {
+  background: #ecf0f1;
+  color: #111213; }
+
+.content {
+  padding: 10px; }
+
+#song-info, #lyrics {
+  vertical-align: top; }
+
+#song-info {
+  display: inline-block;
+  width: 24%;
+  border-right: 1px solid #a6abb0; }
+  #song-info .song-title {
+    font-size: 3em; }
+  #song-info .song-artist {
+    font-size: 1.5em; }
+  #song-info .song-artist, #song-info .song-album {
+    color: #a6abb0;
+    display: block; }
+
+#lyrics {
+  display: inline-block;
+  width: 73%;
+  margin-left: 2%; }
+
+/* footer.sass */
+#footer {
+  background: #11181f;
+  border-top: 3px solid black;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0; }
